@@ -12,25 +12,6 @@
 
 ---
 
-## Quick Start
-
-```bash
-git clone <repo-url>
-cd nutri-coach
-cp .env.example .env       # add your GOOGLE_API_KEY
-make install
-make playground            # opens UI at http://localhost:18081
-```
-
-Create `.env.example` with:
-```
-GOOGLE_API_KEY=your_key_here
-GOOGLE_GENAI_USE_VERTEXAI=False
-GEMINI_MODEL=gemini-2.5-flash
-```
-
----
-
 ## Architecture
 
 ```mermaid
